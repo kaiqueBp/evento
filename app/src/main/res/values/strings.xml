@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Myee</string>
+    <string-array name="event_categories">
+        <item>Trabalho</item>
+        <item>Lazer</item>
+        <item>Estudo</item>
+    </string-array>
+</resources>

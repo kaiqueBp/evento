@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Evento"/>
+
+    <DatePicker
+        android:id="@+id/datePickerEventDate"
+        android:layout_width="391dp"
+        android:layout_height="387dp"
+        android:layout_below="@id/editTextEventName" />
+
+    <Spinner
+        android:id="@+id/spinnerEventCategory"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/datePickerEventDate" />
+
+    <Button
+        android:id="@+id/buttonAddEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Evento"
+        android:layout_below="@id/spinnerEventCategory"/>
+
+    <ListView
+        android:id="@+id/listViewEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonAddEvent"/>
+</RelativeLayout>
